@@ -7,7 +7,11 @@
   padding: 5px;
   border-radius: 10px;
   font-family: monospace;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
+
 .contact {
   background-color: #f3f3f3;
   border-radius: 10px;
@@ -15,23 +19,33 @@
   padding: 20px;
   margin: 15px;
   width: 400px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-evenly;
 }
+
 .photo {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   border: 2px solid #6995a959;
+  flex-shrink: 1;
 }
 
 .info {
   margin-left: 20px;
+
 }
+
 .info p {
   font-size: 22px;
 }
 
 .buttons {
   padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .call,
