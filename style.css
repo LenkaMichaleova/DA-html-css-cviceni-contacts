@@ -21,7 +21,6 @@
   width: 400px;
   display: flex;
   justify-content: space-between;
-  justify-content: space-evenly;
 }
 
 .photo {
@@ -29,12 +28,11 @@
   height: 120px;
   border-radius: 50%;
   border: 2px solid #6995a959;
-  flex-shrink: 1;
 }
 
 .info {
   margin-left: 20px;
-
+  flex-grow: 2;
 }
 
 .info p {
